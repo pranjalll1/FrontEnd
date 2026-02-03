@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height: 200px;
+        background-color: rgb(139, 4, 123);
+        margin-bottom: 30px;
+    }
+    .relative{
+        background-color: rgb(234, 121, 234);
+        padding: 15px;
+    }
+    .Absolute{
+        position: absolute;
+        background-color: orchid;
+        padding: 15px;
+        right: 15px;
+        bottom: 20px;
+
+    }
+    .fixed{
+        position: fixed;
+        background-color: rgb(61, 11, 61);
+        padding: 15px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .display div{
+        background : yellow;
+        padding: 10px;
+        margin: 5px;
+    }
+    .block{
+        display: block;
+        width: 120px;
+
+    }
+    .inline{
+        display: inline;
+        width: 120px;
+    }
+    .inline-block{
+        display: inline-block;
+        width: 120px;
+    }
+
+</style>
+<body>
+    <div class="main">
+        <!-- stay in normal position can be moved to left or right -->
+        <div class="relative">Relative</div>
+        <!-- remove from the normal posotion can be places directly where u want -->
+        <div class="Absolute">Absolute</div>
+        <!-- it does not move while scrolling -->
+        <div class="fixed">Fixed</div>
+ </div>
+ <!-- display properties display ,block,inline,inline block -->
+  <div class="display">
+<!-- start new line -->
+        <div class="block">Block</div>
+        <!-- stays on the same line -->
+        <div class="inline">inline</div>
+        <!-- same as inline width height -->
+        <div class=" inline block"> Inline Block</div>
+
+
+  </div>
+    
+</body>
+</html>

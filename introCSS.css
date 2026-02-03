@@ -1,0 +1,39 @@
+body{
+    background-color: coral;
+}
+.External{
+    color: violet;
+}
+/* CSS Selectors */
+/* 1. Universal SElector */
+*{
+    background-color: rebeccapurple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Element Selector*/
+h4{
+    color :aqua;
+}
+/* 3. Class selector */
+.External{
+    color:beige;
+}
+/* 4. Id selector */
+#id{
+    color:brown;
+}
+/* 5. group selector */
+h5,h6,p{
+    color: green;
+}
+/* 6.attribute selector */
+input[type="text"]{
+    border:2px solid  black;
+    padding: 5px;
+
+}
+/*7. psuedo selector */
+a:hover{
+    color:brown;
+    background-color: yellow;
+}
